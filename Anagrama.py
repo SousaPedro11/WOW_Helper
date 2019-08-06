@@ -1,4 +1,5 @@
 import itertools
+
 import Utilitario as Util
 
 
@@ -56,7 +57,7 @@ def resolver(nome_arquivo_dicionario):
         print("Tamanho do anagrama: %s" % str(tam))
         print("Filtro inserido: %s" % str(filtro))
         comparar(Util.ler_dicionario(nome_arquivo_dicionario), ana(word, int(tam), filtro))
-        usuario = input("Você deseja resolver outro problema com a palavra %s? (S/n)" % word.upper())
+        usuario = input("Você deseja resolver outro problema com a palavra %s? (S/n): " % word.upper())
         # while (usuario is not 's' or usuario is not 'n') and (usuario is not 'S' or usuario is not 'N'):
         #     print("Informe corretamente as opções")
         #     usuario = input("Você deseja resolver outro problema com a palavra %s? (S/n)" % word.upper())
