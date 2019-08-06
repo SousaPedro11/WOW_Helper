@@ -2,6 +2,7 @@ import itertools
 
 
 def ana(word, tam, filtro=None):
+    print("Anagramas:")
     cont = 0
     lista = list()
     if not filtro:
@@ -35,7 +36,9 @@ def filtrar(palavra, regra):
 
 
 def comparar(lista, dicionario):
+    cont = 0
     print("\nPalavras no Dicionário:")
     for x in lista:
         if x in dicionario:
-            print(x)
+            cont += 1
+            print(str(cont) + '\t' + x)
