@@ -1,4 +1,6 @@
 import re
+from os import system, name
+from time import sleep
 
 # char codes: https://unicode-table.com/en/#basic-latin
 accent_map = {
@@ -95,3 +97,15 @@ def ler_dicionario(nome_do_dicionario):
     lista_palavras_dicionario = [line.rstrip('\n') for line in open(nome_do_dicionario, encoding='utf8')]
     lista_palavras_dicionario = acento_lista(lista_palavras_dicionario)
     return lista_palavras_dicionario
+
+
+# define our clear function
+def clear():
+    sleep(1)
+    # for windows
+    if name == 'nt':
+        _ = system('cls')
+
+    # for mac and linux(here, os.name is 'posix')
+    else:
+        _ = system('clear')

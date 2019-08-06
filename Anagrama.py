@@ -1,4 +1,5 @@
 import itertools
+import Utilitario as Util
 
 
 def ana(word, tam, filtro=None):
@@ -42,3 +43,23 @@ def comparar(lista, dicionario):
         if x in dicionario:
             cont += 1
             print(str(cont) + '\t' + x)
+
+
+def resolver(nome_arquivo_dicionario):
+    resposta = True
+    word = input("Digite uma palavra: ")
+    while resposta:
+        tam = input("Informe o tamanho do anagrama: ")
+        filtro = (input("Informe a letra e posição: "))
+        Util.clear()
+        print("Palavra inserida: %s" % word.lower())
+        print("Tamanho do anagrama: %s" % str(tam))
+        print("Filtro inserido: %s" % str(filtro))
+        comparar(Util.ler_dicionario(nome_arquivo_dicionario), ana(word, int(tam), filtro))
+        usuario = input("Você deseja resolver outro problema com a palavra %s? (S/n)" % word.upper())
+        # while (usuario is not 's' or usuario is not 'n') and (usuario is not 'S' or usuario is not 'N'):
+        #     print("Informe corretamente as opções")
+        #     usuario = input("Você deseja resolver outro problema com a palavra %s? (S/n)" % word.upper())
+
+        if usuario is 'N' or usuario is 'n':
+            resposta = False
