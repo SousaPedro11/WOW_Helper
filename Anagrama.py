@@ -47,9 +47,15 @@ def comparar(lista, dicionario):
 
 
 def resolver(nome_arquivo_dicionario):
+    Util.clear()
+    print("WOW Helper - Gera Anagramas e mostra quais são palavras válidas")
     resposta = True
+    outra = False
     word = input("Digite uma palavra: ")
-    while resposta:
+    while resposta or outra:
+        if outra:
+            Util.clear()
+            word = input("Digite uma palavra: ")
         tam = input("Informe o tamanho do anagrama: ")
         filtro = (input("Informe a letra e posição: "))
         Util.clear()
@@ -63,4 +69,10 @@ def resolver(nome_arquivo_dicionario):
         #     usuario = input("Você deseja resolver outro problema com a palavra %s? (S/n)" % word.upper())
 
         if usuario is 'N' or usuario is 'n':
-            resposta = False
+            ent_outra = input("deseja fazer para outra palavra?(s/N): ")
+            if ent_outra is 's' or ent_outra is 'S':
+                outra = True
+            else:
+                outra = False
+                resposta = False
+
