@@ -28,7 +28,13 @@ apenas para 1 letra, por enquanto).
 ## Utilização
 1. Programa Principal
     1. Execução
-        Para executar as funções do programa, basta executar o arquivo [Main.py](./Main.py)
+    
+        Para executar as funções do programa com a Wordlist padrão,
+         basta executar o arquivo [Main.py](./Main.py).
+         Caso deseje executar com Wordlist personalizada, basta
+         abrir o arquivo [Main.py](./Main.py) e alterar a linha
+         ```nome_Dicionario = "palavras.txt"``` para 
+         ```nome_Dicionario = "caminho_wordlist"```
     2. Entrada
     3. Filtros
     4. Saída
