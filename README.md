@@ -45,12 +45,15 @@ apenas para 1 letra, por enquanto).
          *O programa entenderá que não apenas se for respondido **n** ou **N**, 
          caso contrário assumirá uma resposta positiva.*
          
+         Se a reposta for positiva, o programa será reiniciado com a mesma 
+         palavra inserida na execução anterior. Apenas os filtros deverão ser inseridos.
+         
          Se a resposta da primeira pergunta for negativa haverá a seguinte pergunta:
          ```
          Deseja resolver com outra palavra? (s/N)
          ```
          *O programa assumirá resposta positiva apenas se for digitado **s** ou **S**, caso contrário a resposta será negativa 
-         e a execução encerrará.*
+         e a execução encerrará. Caso a resposta seja positiva o programa executará pedindo todas as entradas.*
     2. Entrada
     3. Filtros
     4. Saída
