@@ -7,7 +7,8 @@ Gera anagramas a partir de uma palavra ou letras informadas e verifica os anagra
 + Gerar lista de anagramas.
 + Filtrar anagramas gerados por tamanho.
     
-        **EXEMPLO**
+     **Ex:**
+        
         Entrada: medico
         Filtro de tamanho: 4
         Possiveis resultados: medo, cedo, come, comi, meio, mico , etc...
@@ -15,7 +16,8 @@ Gera anagramas a partir de uma palavra ou letras informadas e verifica os anagra
 + Filtrar anagramas gerados por letra em determinada posição (implementado 
 apenas para 1 letra, por enquanto).
 
-        **EXEMPLO**
+     **Ex:**
+     
         Entrada: medico
         Filtro de tamanho: 4
         Filtro de letra e posição: e,3
@@ -23,11 +25,19 @@ apenas para 1 letra, por enquanto).
         
 + Compara os anagramas gerados com uma wordlist (palavras.txt) editável<sup>1</sup>.
 
+## Utilização
+1. Programa Principal
+    1. Execução
+        <p>Para executar as funções do programa, basta executar o arquivo [Main.py](./Main.py)</p>
+    2. Entrada
+    3. Filtros
+    4. Saída
+
+2. Gerador de Wordlist
+
 <hr />
 <p>
 <small>1. Pode ser aumentada ou diminuida a 
 partir de um programa embutido.
 </p>
 
-
-##
