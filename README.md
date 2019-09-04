@@ -23,5 +23,6 @@ apenas para 1 letra, por enquanto).
         
 + Compara os anagramas gerados com uma wordlist (palavras.txt) editável[^1].
 
-[^1]: Pode ser aumentada ou diminuida a partir de um programa embutido.
+[^1]: Pode
+
 ##
