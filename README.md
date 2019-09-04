@@ -28,7 +28,7 @@ apenas para 1 letra, por enquanto).
 ## Utilização
 1. Programa Principal
     1. Execução
-        <p>Para executar as funções do programa, basta executar o arquivo [Main.py](./Main.py)</p>
+        Para executar as funções do programa, basta executar o arquivo [Main.py](./Main.py)
     2. Entrada
     3. Filtros
     4. Saída
