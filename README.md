@@ -21,9 +21,13 @@ apenas para 1 letra, por enquanto).
         Filtro de letra e posição: e,3
         Possiveis resultados: coei, coem, doei, doem, icem, idem, moei.
         
-+ Compara os anagramas gerados com uma wordlist (palavras.txt) editável[^1].
++ Compara os anagramas gerados com uma wordlist (palavras.txt) editável<sup>1</sup>.
 
-[^1]: Pode ser aumentada ou diminuida a 
+<hr />
+<p>
+<small>1. Pode ser aumentada ou diminuida a 
 partir de um programa embutido.
+</p>
+
 
 ##
