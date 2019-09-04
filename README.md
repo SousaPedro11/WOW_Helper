@@ -55,8 +55,58 @@ apenas para 1 letra, por enquanto).
          *O programa assumirá resposta positiva apenas se for digitado **s** ou **S**, caso contrário a resposta será negativa 
          e a execução encerrará. Caso a resposta seja positiva o programa executará pedindo todas as entradas.*
     2. Entrada
-    3. Filtros
-    4. Saída
+    
+        Assim que inicia a execução, as entradas são solicitadas na seguinte ordem:
+        1. Palavra
+            
+            É solicitado uma palavra ou um conjunto de letras (Ex: medico ou omidec).
+        2. Filtro de tamanho
+            
+            É solicitado um número inteiro que representa o
+             tamanho dos anagramas a serem gerados. Ele deve ser 
+             menor ou igual ao tamanho da palavra de entrada.
+        3. Filtro letra/posição
+            
+            É solicitada a letra e a posicao dela nos 
+            anagramas gerados no formato *letra,posição*. 
+            Este filtro é facultativo, caso não seja inserido 
+            os anagramas serão gerados apenas com o filtro de tamanho.
+        
+    3. Saída
+    
+        A saída irá mostrar a palavra inserida, os filtros e em seguida o 
+        resultado da seguinte forma:
+        
+        ```
+        Anagramas:
+        
+        1   anagrama 1
+        
+        2   anagrama 2
+        
+        .       .
+        
+        .       .
+        
+        .       .
+        
+        n   anagrama n
+        
+        
+        Palavras no Dicionario
+        
+        1   palavra 1
+        
+        2   palavra 2
+        
+        .       .
+        
+        .       .
+        
+        .       .
+        
+        n   palavra n
+        ```
 
 2. Gerador de Wordlist
 
