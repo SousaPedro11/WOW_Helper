@@ -31,10 +31,24 @@ apenas para 1 letra, por enquanto).
     
         Para executar as funções do programa com a Wordlist padrão,
          basta executar o arquivo [Main.py](./Main.py).
+         
          Caso deseje executar com Wordlist personalizada, basta
          abrir o arquivo [Main.py](./Main.py) e alterar a linha
          ```nome_Dicionario = "palavras.txt"``` para 
-         ```nome_Dicionario = "caminho_wordlist"```
+         ```nome_Dicionario = "caminho_wordlist"``` e depois executá-lo.
+         
+         O programa executará as tarefas de acordo com as entradas
+         e depois perguntará:
+         ```
+         Você deseja resolver outro problema com a palavra "palavra_fornecida_na_entrada"? (S/n):
+         ```
+         O programa entenderá que não apenas se for respondido **n** ou **N**, caso contrário assumirá uma resposta positiva.
+         
+         ```
+         Deseja resolver com outra palavra? (s/N)
+         ```
+         O programa assumirá resposta positiva apenas se for digitado **s** ou **S**, caso contrário a resposta será negativa 
+         e a execução encerrará.
     2. Entrada
     3. Filtros
     4. Saída
