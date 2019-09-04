@@ -45,6 +45,7 @@ apenas para 1 letra, por enquanto).
          *O programa entenderá que não apenas se for respondido **n** ou **N**, 
          caso contrário assumirá uma resposta positiva.*
          
+         Se a resposta da primeira pergunta for negativa haverá a seguinte pergunta:
          ```
          Deseja resolver com outra palavra? (s/N)
          ```
