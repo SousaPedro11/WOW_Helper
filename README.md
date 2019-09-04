@@ -72,7 +72,7 @@ anagramas gerados no formato *letra,posição*.
 Este filtro é facultativo, e caso não seja inserido, 
 os anagramas serão gerados apenas com o filtro de tamanho.
 
-##### 1.2.3. Saída
+##### 1.3. Saída
 
 A saída irá mostrar a palavra inserida, os filtros e em seguida o 
 resultado da seguinte forma:
