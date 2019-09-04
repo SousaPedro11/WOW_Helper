@@ -42,13 +42,14 @@ apenas para 1 letra, por enquanto).
          ```
          Você deseja resolver outro problema com a palavra "palavra_fornecida_na_entrada"? (S/n):
          ```
-         O programa entenderá que não apenas se for respondido **n** ou **N**, caso contrário assumirá uma resposta positiva.
+         *O programa entenderá que não apenas se for respondido **n** ou **N**, 
+         caso contrário assumirá uma resposta positiva.*
          
          ```
          Deseja resolver com outra palavra? (s/N)
          ```
-         O programa assumirá resposta positiva apenas se for digitado **s** ou **S**, caso contrário a resposta será negativa 
-         e a execução encerrará.
+         *O programa assumirá resposta positiva apenas se for digitado **s** ou **S**, caso contrário a resposta será negativa 
+         e a execução encerrará.*
     2. Entrada
     3. Filtros
     4. Saída
