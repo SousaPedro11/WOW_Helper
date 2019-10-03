@@ -82,7 +82,7 @@ def remove_acento(palavra_velha):
 def acento_lista(lista):
     lista_sem = list()
     for x in lista:
-        novox = remove_acento(str(x))  # print(x)
+        novox = remove_acento(str(x))
         lista_sem.append(remove_barra(novox))
     return lista_sem
 
@@ -91,12 +91,6 @@ def remove_barra(palavra):
     x = palavra.split("/")
     palavra = x[0]
     return palavra
-
-
-def ler_dicionario(nome_do_dicionario):
-    lista_palavras_dicionario = [line.rstrip('\n') for line in open(nome_do_dicionario, encoding='utf8')]
-    lista_palavras_dicionario = acento_lista(lista_palavras_dicionario)
-    return lista_palavras_dicionario
 
 
 # define our clear function

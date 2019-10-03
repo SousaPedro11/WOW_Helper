@@ -23,7 +23,7 @@ apenas para 1 letra, por enquanto).
         Filtro de letra e posição: e,3
         Possiveis resultados: coei, coem, doei, doem, icem, idem, moei.
         
-+ Compara os anagramas gerados com uma wordlist (palavras.txt) editável<sup>1</sup>.
++ Comparar os anagramas gerados com uma wordlist (palavras.txt) editável<sup>1</sup>.
 
 ## Utilização
 ### 1. Programa Principal
@@ -72,7 +72,7 @@ anagramas gerados no formato *letra,posição*.
 Este filtro é facultativo, e caso não seja inserido, 
 os anagramas serão gerados apenas com o filtro de tamanho.
 
-##### 1.3. Saída
+#### 1.3. Saída
 
 A saída irá mostrar a palavra inserida, os filtros e em seguida o 
 resultado da seguinte forma:
@@ -109,6 +109,23 @@ n   palavra n
 ```
 
 ### 2. Gerador de Wordlist
+#### 2.1. Execução
+Basta executar o programa [joinDitc.py](./joinDict.py) para gerar a WordList [palavras.txt](./palavras.txt).
+
+#### 2.2. Entrada
+A entrada para esse programa são os arquivos existentes na pasta [dicionarios_originais](dicionarios_originais).
+
+##### 2.2.1. Para aumentar a WordList
+Caso deseje adicionar novas palavras à WordList, basta criar um arquivo .txt contendo as novas palavras na
+pasta [dicionarios_originais](dicionarios_originais).
+
+##### 2.1.2. Para diminuir a WordList
+Basta apagar as ocorrências das palavras a serem excluídas dos arquivos presentes na
+pasta [dicionarios_originais](dicionarios_originais) e gerar novamente a WordList [palavras.txt](./palavras.txt).
+
+#### 2.3. Saída
+O programa [joinDitc.py](./joinDict.py) tem como retorno a criação da WordList no arquivo [palavras.txt](./palavras.txt) a partir da manipulação dos arquivos
+existentes na pasta [dicionarios_originais](dicionarios_originais).
 
 <hr />
 <p>
