@@ -1,4 +1,4 @@
-# WOW_Helper
+# WOW_Helper (atualizarei para API e colocarei no Heroku)
 Gera anagramas a partir de uma palavra ou letras informadas e verifica os anagramas válidos segundo o dicionário (wordlist) palavras.txt
 
 ## Objetivos
